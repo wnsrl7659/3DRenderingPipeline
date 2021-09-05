@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{a56e8cdb-4768-43c5-ac13-df29325bbbb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{0cc3fd87-e8cc-4141-91b9-25f2cb49737b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BVHierarchy">
+      <UniqueIdentifier>{58982d59-fe8b-4dbf-bcad-7a2f1c36e21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BoundingVolumes">
+      <UniqueIdentifier>{4f466f65-3826-44a9-8428-1feed717df06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Global">
+      <UniqueIdentifier>{254216b5-f06e-41b3-a8d6-3f0c440bec18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Partitioning">
+      <UniqueIdentifier>{7be84113-f2c4-4194-a8b7-5a823f468981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{2c90bcf1-4739-4b12-be0f-c796bef7bd4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\Scene.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\shader.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GLApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSandbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BVolume.cpp">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereLarssonMethod.cpp">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClCompile>
+    <ClCompile Include="AdaptiveOctree.cpp">
+      <Filter>Source Files\Partitioning</Filter>
+    </ClCompile>
+    <ClCompile Include="BSPTree.cpp">
+      <Filter>Source Files\Partitioning</Filter>
+    </ClCompile>
+    <ClCompile Include="HierarchyBottomUpAABB.cpp">
+      <Filter>Source Files\BVHierarchy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\Scene.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\shader.hpp">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSandbox.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BVolumeHierarchy.h">
+      <Filter>Source Files\BVHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyTopDownAABB.h">
+      <Filter>Source Files\BVHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyTopDownSphere.h">
+      <Filter>Source Files\BVHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxAABB.h">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxOBB.h">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="BVolume.h">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipsoid.h">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCentroidMethod.h">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereLarssonMethod.h">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="SpherePCA.h">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereRitterMethod.h">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperFunctions.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="AdaptiveOctree.h">
+      <Filter>Source Files\Partitioning</Filter>
+    </ClInclude>
+    <ClInclude Include="BSPTree.h">
+      <Filter>Source Files\Partitioning</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyBottomUpAABB.h">
+      <Filter>Source Files\BVHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyBottomUpSphere.h">
+      <Filter>Source Files\BVHierarchy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
